@@ -1,14 +1,14 @@
 
 import { StyleSheet, Text, View } from "react-native";
+import App from "./App";
 
-import List from "../components/list";
-import Heading from "../components/heading";
+
 
 export default function Page() {
   return (
-    <View style={{ flex: 1 }}>
-      <Heading />
-      <List />
+    <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+      <Text style={{ fontSize: 40 }}>Lab 2</Text>
+      <App />
     </View>
   );
 };
