@@ -7,7 +7,7 @@ import App from "./App";
 export default function Page() {
   return (
     <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-      <Text style={{ fontSize: 40 }}>Lab 2</Text>
+      <Text style={{ fontSize: 40 }}>Lab 3</Text>
       <App />
     </View>
   );
